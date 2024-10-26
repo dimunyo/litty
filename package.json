@@ -7,11 +7,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "reset": "pnpm store prune && rm -rf .nuxt dist pnpm-lock.yaml docs/.nuxt docs/.output docs/pnpm-lock.yaml docs/node_modules node_modules && pnpm install"
   },
   "dependencies": {
+    "@una-ui/nuxt": "npm:@una-ui/nuxt-edge@latest",
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.1",
+    "@iconify-json/lucide": "^1.2.10",
+    "@iconify-json/radix-icons": "^1.2.1",
+    "@iconify-json/tabler": "^1.2.6"
   }
 }
