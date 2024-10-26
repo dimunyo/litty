@@ -1,1 +1,1 @@
-# DRAFT
+# This is a sample website
