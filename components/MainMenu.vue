@@ -19,15 +19,15 @@ const items = ref(['GAMEPLAY','PROMO', 'CHARACTERS', 'ENVIRONMENTS', 'CONCEPTS']
         </div>
 
         <div class="grid grid-cols-3 gap-5 py-3">
-            <div class="relative group">
+            <div class="relative group cursor-pointer">
                 <img src="/img/dragon.jfif" />
                 <div class="absolute inset-0 bg-gradient-to-t from-red to-transparent opacity-0 group-hover:opacity-30 transition-opacity duration-300"/>
             </div>
-            <div class="relative group">
+            <div class="relative group cursor-pointer">
                 <img src="/img/snake.jfif" />
                 <div class="absolute inset-0 bg-gradient-to-t from-blue to-transparent opacity-0 group-hover:opacity-30 transition-opacity duration-300"/>
             </div>
-            <div class="relative group">
+            <div class="relative group cursor-pointer">
                 <img src="/img/wolf.jfif" />
                 <div class="absolute inset-0 bg-gradient-to-t from-green to-transparent opacity-0 group-hover:opacity-30 transition-opacity duration-300"/>
             </div>
