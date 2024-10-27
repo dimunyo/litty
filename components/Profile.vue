@@ -1,7 +1,10 @@
 <template>
     <div class="flex flex-col relative">
-        <NAvatar src="/img/profile.jfif" class="absolute left-10 top-45" size="64px"/>
-        <img src="/img/hero.png" class="h-256px object-cover" />
+        <NAvatar src="/img/profile.jfif" class="absolute left-10 top-45 z-10" size="64px"/>
+        <div class="relative group">
+            <img src="/img/hero.png" class="h-256px w-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-yellow to-transparent opacity-0 group-hover:opacity-30 transition-opacity duration-300"/>
+        </div>
         <div class="flex flex-col w-75% ml-auto gap-y-2">
             <div class="flex items-center justify-between">
                 <div>
